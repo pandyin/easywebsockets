@@ -35,8 +35,11 @@ EasyWebsockets websockets = EasyWebsockets.builder()
 
 headers:
 ```
-websockets.headers("deviceModel", "Xiaomi A1",
-                "deviceVersion", "9.0.0");
+websockets.headers("k1", "v1",
+                "k2", "v2",
+                "k3", "v3",
+                ...
+                );
 ```
 
 subscribe to in-coming messages:
